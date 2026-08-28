@@ -116,11 +116,11 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    device/xiaomi/air
 
 # Overrides
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.product.device=$(PRODUCT_RELEASE_NAME)
+    ro.product.device=air
 
 # Use /product/etc/fstab.postinstall to mount system_other.
 PRODUCT_PRODUCT_PROPERTIES += \
