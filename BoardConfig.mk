@@ -198,3 +198,52 @@ TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_USE_LEGACY_BATTERY_SERVICES := true
 TW_LOAD_VENDOR_BOOT_MODULES := true
 TW_DEVICE_VERSION := @vbs_1-and-@dream_7x
+
+
+# -----------------------------------------------------------------------------
+# OrangeFox Recovery Project Build Variables
+# -----------------------------------------------------------------------------
+
+# Maintainer & Identity
+OF_MAINTAINER := heppysingh
+TARGET_DEVICE_ALT := air
+FOX_TARGET_DEVICES := air
+
+# Target Architecture
+TARGET_ARCH := arm64
+
+# Virtual A/B & vendor_boot as recovery
+OF_DYNAMIC_FULL_SIZE := 9126805504
+OF_NO_REFLASH_CURRENT_ORANGEFOX := 1
+OF_NO_SPLASH_CHANGE := 1
+
+# Size Optimization & Ramdisk Compression (LZ4 is required for MT6835 Little Kernel)
+OF_USE_LZ4_COMPRESSION := 1
+
+# Display, Notch & UI Customization (720x1640 / 720x1600 notch)
+OF_SCREEN_H := 2400
+OF_STATUS_H := 100
+OF_STATUS_INDENT_LEFT := 48
+OF_STATUS_INDENT_RIGHT := 48
+OF_HIDE_NOTCH := 1
+OF_CLOCK_POS := 0
+OF_ALLOW_DISABLE_NAVBAR := 0
+OF_USE_LOCKSCREEN_BUTTON := 1
+
+# Hardware & System Features
+OF_USE_GREEN_LED := 0
+OF_FLASHLIGHT_ENABLE := 1
+OF_FL_PATH1 := /sys/class/leds/led_torch_2
+OF_USE_LEGACY_BATTERY_SERVICES := 1
+OF_FORCE_CASEFOLDING := 1
+OF_FORCE_PREBUILT_KERNEL := 1
+OF_NO_TREBLE_COMPATIBILITY_CHECK := 1
+OF_PATCH_AVB20 := 1
+OF_VAB_ORS_WIPE_DATA_IS_FORMAT := 1
+OF_DEFAULT_TIMEZONE := TAIST-5:30;IST
+OF_FBE_METADATA_MOUNT_IGNORE := 1
+
+# Partition Tools & Backups
+OF_ENABLE_LPTOOLS := 1
+OF_ENABLE_ALL_PARTITION_TOOLS := 1
+OF_QUICK_BACKUP_LIST := /boot;/data;/super;
