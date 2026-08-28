@@ -24,7 +24,6 @@ PRODUCT_MODEL := POCO M6 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Device path for OEM device tree
-DEVICE_PATH := device/$(BOARD_VENDOR)/$(PRODUCT_DEVICE)
-
+DEVICE_PATH := device/xiaomi/air
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
