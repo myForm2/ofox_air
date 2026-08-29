@@ -871,6 +871,8 @@ alias of:N*T*Cmediatek,mt8183-ufsphy phy_mtk_ufs
 alias of:N*T*Cmediatek,mt8183-ufsphyC* phy_mtk_ufs
 alias of:N*T*Ctruly,td4330,cmd panel_truly_td4330_cmd
 alias of:N*T*Ctruly,td4330,cmdC* panel_truly_td4330_cmd
+alias of:N*T*Cfocaltech,fts ft8057p_spi
+alias of:N*T*Cfocaltech,ftsC* ft8057p_spi
 alias of:N*T*Cjdi,nt36672e,vdo,120hz,6382 panel_alpha_jdi_nt36672e_vdo_120hz_6382
 alias of:N*T*Cjdi,nt36672e,vdo,120hz,6382C* panel_alpha_jdi_nt36672e_vdo_120hz_6382
 alias of:N*T*Cmediatek,clk-disable-unused clk_disable_unused
@@ -991,6 +993,8 @@ alias of:N*T*Cmediatek,mt6886-mmc mtk_mmc
 alias of:N*T*Cmediatek,mt6886-mmcC* mtk_mmc
 alias of:N*T*Cmediatek,mt6835-mmc mtk_mmc
 alias of:N*T*Cmediatek,mt6835-mmcC* mtk_mmc
+alias of:N*T*Cmediatek,mt6377-accdet mt6377_accdet
+alias of:N*T*Cmediatek,mt6377-accdetC* mt6377_accdet
 alias of:N*T*Cmediatek,mt6835-mmqos mmqos_mt6835
 alias of:N*T*Cmediatek,mt6835-mmqosC* mmqos_mt6835
 alias of:N*T*Cmediatek,rt-pd-manager rt_pd_manager
